@@ -1,0 +1,16 @@
+void main()
+{
+	int a, b;
+	int m;
+	cin >> a >> b;
+	m = a % b;
+	a++;
+	b--;
+	int sum = a + b;
+	int x = a ** b; 
+	cout << sum << endl;
+	if(a>=b) cout<<a<<endl;
+	else m=b%a;
+	
+   return 0;
+}
